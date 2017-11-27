@@ -1,3 +1,3 @@
 FROM python:3-alpine
-LABEL maintainer="Repometric <linterhub@repometric.com>"
+LABEL maintainer="linterhub@repometric.com"
 ENTRYPOINT /bin/sh
