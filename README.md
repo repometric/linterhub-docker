@@ -34,10 +34,10 @@ docker run -v /local:/container -it linterhub/your_faivorite_engine engine_comma
 Contributions are always welcome! Please read the [contribution guidelines](.github/CONTRIBUTING.md) first.
 
 - [Request to add new engine](.github/ENGINE_TEMPLATE.md)
-- [Report an issue for existing engine](.guthub/ISSUE_TEMPALTE.md)
-- [Propose pull request](/.guthub/PULL_REQUEST_TEMPLATE.md)
-- [How to add new engine](./guthub/HOWTO_ENGINE.md)
+- [Report an issue for existing engine](.github/ISSUE_TEMPALTE.md)
+- [Propose pull request](.github/PULL_REQUEST_TEMPLATE.md)
+- [How to add new engine](.github/HOWTO_ENGINE.md)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
