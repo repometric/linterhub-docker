@@ -1,0 +1,3 @@
+[submodule "engines/jslint/tests/jquery"]
+	path = engines/jslint/tests/jquery
+	url = https://github.com/jquery/jquery.git
