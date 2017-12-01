@@ -1,0 +1,104 @@
+
+jquery/src/ajax/jsonp.js
+ #1 'define' was used before it was defined.
+    define( [ // Line 1, Pos 1
+ #2 Unexpected space between '(' and '['.
+    define( [ // Line 1, Pos 9
+ #3 Use spaces, not tabs.
+    "../core", // Line 2, Pos 1
+ #4 Expected '../core' at column 5, not column 2.
+    "../core", // Line 2, Pos 2
+ #5 Use spaces, not tabs.
+    "./var/nonce", // Line 3, Pos 1
+ #6 Expected './var/nonce' at column 5, not column 2.
+    "./var/nonce", // Line 3, Pos 2
+ #7 Use spaces, not tabs.
+    "./var/rquery", // Line 4, Pos 1
+ #8 Expected './var/rquery' at column 5, not column 2.
+    "./var/rquery", // Line 4, Pos 2
+ #9 Use spaces, not tabs.
+    "../ajax" // Line 5, Pos 1
+#10 Expected '../ajax' at column 5, not column 2.
+    "../ajax" // Line 5, Pos 2
+#11 Expected exactly one space between 'function' and '('.
+    ], function( jQuery, nonce, rquery ) { // Line 6, Pos 12
+#12 Unexpected space between '(' and 'jQuery'.
+    ], function( jQuery, nonce, rquery ) { // Line 6, Pos 14
+#13 Unexpected space between 'rquery' and ')'.
+    ], function( jQuery, nonce, rquery ) { // Line 6, Pos 36
+#14 Expected 'use strict' at column 5, not column 1.
+    "use strict"; // Line 8, Pos 1
+#15 Expected 'var' at column 5, not column 1.
+    var oldCallbacks = [], // Line 10, Pos 1
+#16 Use spaces, not tabs.
+    rjsonp = /(=)\?(?=&|$)|\?\?/; // Line 11, Pos 1
+#17 Expected 'rjsonp' at column 9, not column 2.
+    rjsonp = /(=)\?(?=&|$)|\?\?/; // Line 11, Pos 2
+#18 Expected 'jQuery' at column 5, not column 1.
+    jQuery.ajaxSetup( { // Line 14, Pos 1
+#19 Unexpected space between '(' and '{'.
+    jQuery.ajaxSetup( { // Line 14, Pos 19
+#20 Use spaces, not tabs.
+    jsonp: "callback", // Line 15, Pos 1
+#21 Expected 'jsonp' at column 9, not column 2.
+    jsonp: "callback", // Line 15, Pos 2
+#22 Use spaces, not tabs.
+    jsonpCallback: function() { // Line 16, Pos 1
+#23 Expected 'jsonpCallback' at column 9, not column 2.
+    jsonpCallback: function() { // Line 16, Pos 2
+#24 Expected exactly one space between 'function' and '('.
+    jsonpCallback: function() { // Line 16, Pos 25
+#25 Use spaces, not tabs.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 1
+#26 Expected 'var' at column 13, not column 3.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 3
+#27 Unexpected space between '(' and 'jQuery'.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 42
+#28 Unexpected space between '(' and 'nonce'.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 67
+#29 Unexpected '++'.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 72
+#30 Unexpected space between '++' and ')'.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 75
+#31 Unexpected space between ')' and ')'.
+    var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) ); // Line 17, Pos 77
+#32 Use spaces, not tabs.
+    this[ callback ] = true; // Line 18, Pos 1
+#33 Expected 'this' at column 13, not column 3.
+    this[ callback ] = true; // Line 18, Pos 3
+#34 Unexpected space between '[' and 'callback'.
+    this[ callback ] = true; // Line 18, Pos 9
+#35 Unexpected space between 'callback' and ']'.
+    this[ callback ] = true; // Line 18, Pos 18
+#36 Use spaces, not tabs.
+    return callback; // Line 19, Pos 1
+#37 Expected 'return' at column 13, not column 3.
+    return callback; // Line 19, Pos 3
+#38 Use spaces, not tabs.
+    } // Line 20, Pos 1
+#39 Expected '}' at column 9, not column 2.
+    } // Line 20, Pos 2
+#40 Expected '}' at column 5, not column 1.
+    } ); // Line 21, Pos 1
+#41 Unexpected space between '}' and ')'.
+    } ); // Line 21, Pos 3
+#42 Expected 'jQuery' at column 5, not column 1.
+    jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) { // Line 24, Pos 1
+#43 Unexpected space between '(' and 'json jsonp'.
+    jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) { // Line 24, Pos 23
+#44 Expected exactly one space between 'function' and '('.
+    jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) { // Line 24, Pos 45
+#45 Unexpected space between '(' and 's'.
+    jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) { // Line 24, Pos 47
+#46 Unexpected space between 'jqXHR' and ')'.
+    jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) { // Line 24, Pos 74
+#47 Use spaces, not tabs.
+    var callbackName, overwritten, responseContainer, // Line 26, Pos 1
+#48 Expected 'var' at column 9, not column 2.
+    var callbackName, overwritten, responseContainer, // Line 26, Pos 2
+#49 Use spaces, not tabs.
+    jsonProp = s.jsonp !== false && ( rjsonp.test( s.url ) ? // Line 27, Pos 1
+#50 Expected 'jsonProp' at column 13, not column 3.
+    jsonProp = s.jsonp !== false && ( rjsonp.test( s.url ) ? // Line 27, Pos 3
+#51 Too many errors. (26% scanned).
+     // Line 27, Pos 3
