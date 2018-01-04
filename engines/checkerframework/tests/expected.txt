@@ -1,0 +1,6 @@
+Test.java:6: error: [assignment.type.incompatible] incompatible types in assignment.
+        @NonNull String s = null;
+                            ^
+  found   : null
+  required: @UnknownInitialization @NonNull String
+1 error
