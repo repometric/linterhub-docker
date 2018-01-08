@@ -1,0 +1,1 @@
+scancode --format json sample
