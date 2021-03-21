@@ -1,2 +1,2 @@
-alias javacheck='../checker-framework-2.3.1/checker/bin/javac'
+alias javacheck='../checker-framework-3.11.0/checker/bin/javac'
 javacheck -processor org.checkerframework.checker.nullness.NullnessChecker Test.java
